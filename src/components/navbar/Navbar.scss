@@ -1,0 +1,29 @@
+@import './../../scss/variables.scss';
+
+@mixin menu-active {
+    position: absolute;
+    content: '';
+    width: 3px;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: $o-primary;
+}
+
+.o-menu-active{
+    &::before{
+        @include menu-active;
+        height: 18px;
+    }
+}
+
+.o-hover:not(.o-menu-active){
+    &::before{
+        @include menu-active;
+        height: 0;
+        transition: all .3s;
+    }
+    &:hover::before{
+        height: 18px;
+    }
+}

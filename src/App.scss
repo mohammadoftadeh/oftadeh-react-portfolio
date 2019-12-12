@@ -1,0 +1,120 @@
+@import './scss/variables.scss';
+
+main{
+    height: auto;
+
+    header{
+        top: -50px;
+        left: 0;
+        right: 0;
+    }
+}
+
+a{
+    text-decoration: none !important;
+}
+
+button{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+.form-control:focus{
+    border-color: $o-primary !important;
+    box-shadow: 0 0 0 0.2rem rgba(142, 111, 246, .3) !important;
+}
+
+.form-group{
+    textarea{
+        min-height: 113px;
+        max-height: 113px;
+        resize: none;
+    }
+}
+
+.o-font-xs{
+  font-size: $o-xs;
+}
+.o-font-sm{
+  font-size: $o-sm;
+}
+.o-font-md{
+  font-size: $o-md;
+}
+.o-font-lg{
+  font-size: $o-lg;
+}
+
+.o-text-purple{
+  color: $o-primary;
+}
+
+.o-border-purple{
+    border: 1px solid $o-primary !important;
+}
+
+.o-bg-purple{
+    background: $o-primary !important;
+}
+
+.o-btn{
+    background: $o-primary;
+    width: 145px;
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 145px;
+        height: 40px;
+        border: 2px solid $o-primary;
+        left: -6px;
+        top: 6px;
+        transition: all .3s;
+    }
+
+    &:hover::before{
+        left: 0;
+        top: 0;
+    }
+}
+
+.o-title-page{
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 18px;
+        height: 3px;
+        background: $o-primary;
+        bottom: -5px;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        width: 37px;
+        height: 4px;
+        background: $o-primary;
+        bottom: -13px;
+        left: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    main{
+        min-height: 100vh;
+    }
+}
+@media (min-width: 768px) {
+    .right-side{
+        height: 603px;
+        overflow: scroll;
+    }
+}
+@media (min-width: 992px) {
+    main > .container{
+        margin-top: 50px;
+    }
+}
+

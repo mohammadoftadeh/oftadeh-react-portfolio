@@ -1,0 +1,24 @@
+@import './../../scss/variables.scss';
+
+.testimonial{
+
+    .slick-list{
+        padding: 1.85rem 0;
+    }
+
+    .slick-dots li.slick-active button:before{
+        color: $o-primary;
+    }
+}
+
+.testimonial__div{
+    padding-top: 2rem;
+
+    .fa-quote-left{
+        width: 55px;
+        height: 55px;
+        line-height: 45px;
+        top: -28px;
+        right: 23px;
+    }
+}

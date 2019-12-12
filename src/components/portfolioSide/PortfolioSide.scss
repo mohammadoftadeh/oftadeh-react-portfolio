@@ -1,0 +1,20 @@
+.o-hover-overlay{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all .3s;
+
+    a, button{
+        width: 33px;
+        height: 33px;
+        line-height: 30px;
+    }
+    button{
+        line-height: 0;
+    }
+}

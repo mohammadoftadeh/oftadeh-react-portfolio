@@ -1,0 +1,45 @@
+.responsive-menu{
+    top: 0;
+    left: -100%;
+    width: 285px;
+    height: 100vh;
+    z-index: 999;
+    transition: all .65s;
+
+    .res-back-avatar{
+        width: 100%;
+        height: 233px;
+        background: url('./../../images/left-back.png') center no-repeat;
+    }
+
+    & > nav{
+        height: 340px;
+        overflow-y: auto;
+    }
+
+    .copyright{
+        bottom: 0;
+        left: 0;
+        width: inherit;
+    }
+}
+
+.o-left-zero{
+    left: 0;
+}
+
+.o-menu-active{
+    &::before{
+        top: 3px;
+        left: -8px;
+    }
+}
+
+.o-toggle-menu{
+    top: 13px;
+    left: 13px;
+    width: 45px;
+    height: 45px;
+    line-height: 0px;
+    z-index: 9999;
+}

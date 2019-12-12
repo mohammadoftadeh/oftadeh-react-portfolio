@@ -1,0 +1,21 @@
+@import './../../scss/variables.scss';
+
+.services__div{
+    width: 209px;
+    height: 175px;
+    background: $bg-gradient-primary;
+}
+
+.services__small{
+
+    &::after{
+        position: absolute;
+        content: '';
+        bottom: -7px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 18px;
+        height: 3px;
+        background: #fff;
+    }
+}

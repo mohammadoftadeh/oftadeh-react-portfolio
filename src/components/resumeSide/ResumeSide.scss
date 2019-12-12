@@ -1,0 +1,27 @@
+@import './../../scss/variables.scss';
+
+.progress{
+    height: 5px;
+    border-radius: 0;
+}
+
+.o-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+}
+
+.o-time-title{
+    padding-left: 2.3rem;
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 27px;
+        height: 3px;
+        background: $o-primary;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

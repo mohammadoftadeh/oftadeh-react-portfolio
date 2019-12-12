@@ -1,0 +1,11 @@
+.o-masonry{
+    text-align: center;
+    column-count: 1;
+    column-gap: 1rem;
+}
+
+@media (min-width: 400px){
+    .o-masonry{
+        column-count: 2;
+    }
+}

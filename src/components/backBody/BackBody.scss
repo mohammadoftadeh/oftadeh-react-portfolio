@@ -1,0 +1,9 @@
+@import './../../scss/variables.scss';
+
+.back-body{
+    width: 100vw;
+    height: 65vh;
+    background: $bg-gradient-primary;
+    bottom: 0;
+    z-index: -1;
+}

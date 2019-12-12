@@ -1,0 +1,19 @@
+.o-card{
+    break-inside: avoid-column;
+    cursor: pointer;
+    display: inline-grid;
+    page-break-inside: avoid;
+
+    img:not(.fslightbox-source){
+        width: 100%;
+        transition: all 3s;
+    }
+
+    &:hover img:not(.fslightbox-source){
+        transform: scale(1.3);
+    }
+
+    &:hover .o-hover-overlay{
+        transform: scale(1);
+    }
+}
