@@ -1,6 +1,10 @@
 # Oftadeh React Portfolio
 Oftadeh - React Personal Portfolio Responsive Template is an React app written entirely with Javascript and has no jQuery dependency.
 
+<br />
+
+To view a live demo, [click here](https://oftadeh-react-portfolio.netlify.com/).
+
 ## React
 [React](https://reactjs.org/) is the core of our template. If you don't know what React is or don't know how to use it, we strongly recommend checking the React before start doing anything with Oftadeh.
 
