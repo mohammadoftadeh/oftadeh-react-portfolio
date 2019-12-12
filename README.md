@@ -1,5 +1,5 @@
 # Oftadeh React Portfolio
-Oftadeh is an React app written entirely with Javascript and has no jQuery dependency.
+Oftadeh - React Personal Portfolio Responsive Template is an React app written entirely with Javascript and has no jQuery dependency.
 
 ## React
 [React](https://reactjs.org/) is the core of our template. If you don't know what React is or don't know how to use it, we strongly recommend checking the React before start doing anything with Oftadeh.
@@ -94,7 +94,7 @@ Here’s the project structure of the Oftadeh React:
 
 <br />
 
-[![Oftadeh - React Personal Portfolio](https://vitateach.com/wp-content/uploads/2019/12/project-structure.png)
+![Oftadeh - React Personal Portfolio](https://vitateach.com/wp-content/uploads/2019/12/project-structure.png)
 
 ## Theming
 
@@ -104,13 +104,13 @@ You can change colors and sizes , Sass variables of your app at src/SCSS/variabl
 
 <br />
 
-[![Oftadeh - React Personal Portfolio](https://vitateach.com/wp-content/uploads/2019/12/css-color.png)
+![Oftadeh - React Personal Portfolio](https://vitateach.com/wp-content/uploads/2019/12/css-color.png)
 
 ## Routing
 
 Oftadeh React routing system based on [react-router](https://reacttraining.com/react-router/)
 
-[![Oftadeh - React Personal Portfolio](https://vitateach.com/wp-content/uploads/2019/12/route.png)
+![Oftadeh - React Personal Portfolio](https://vitateach.com/wp-content/uploads/2019/12/route.png)
 
 ## Sources and Credits
 - react-icons
@@ -123,6 +123,7 @@ Oftadeh React routing system based on [react-router](https://reacttraining.com/r
 - fslightbox
 - react-router-dom
 - react-slick
+- react content loader (skeleton)
 - unsplash
 - pexels
 - ui faces
